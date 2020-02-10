@@ -13,24 +13,23 @@ export class SmallIosProjectView extends Component {
                 <br></br>
                 <div className="iosRight" style={{float: "none", margin:"auto", width: "80%"}}>
                     
-                    <div className="iosImage">
+                    <div className="iosImage" >
                         <Image src={stilistaImage} fluid/>
                     </div>
-                    <div className="smallAppDesc">
+                    <div className="smallAppDesc" style={{margin:"10%"}}>
                     <div className="appDesc">
                     <h1>{this.props.title}</h1>
                             <br></br>
-                            <h5>{this.props.appDesc}</h5>
+                            <h5 style={{textAlign: "center"}}>{this.props.appDesc}</h5>
                             <br></br>
-                            <h2>Technologies:</h2>
-                            <h5 className="appTech">MapKit, Firebase Storage, Heroku, Kingfisher, MongoDB, and Node.js/Express for the server.</h5>
+                            <h2 style={{textAlign: "center"}}>Technologies:</h2>
+                            <h5 className="appTech" style={{textAlign: "center"}}>MapKit, Firebase Storage, Heroku, Kingfisher, MongoDB, and Node.js/Express for the server.</h5>
                             <br></br>
                             <div className= "buttons" >
-                                <Button variant="outline-secondary" className="swiftAppButton" style={{float: "left"}}>GitHub: iOS App Repository</Button>
-                                <br></br>
+                                <Button variant="outline-secondary" className="swiftAppButton" style={{float: "none", margin: "5%"}}>GitHub: iOS App Repository</Button>
+                                <Button variant="outline-secondary" className="serverButton" style={{float: "none", margin: "1%"}}>GitHub: Server Repository</Button>
                             </div>
-                            <br></br>
-                            <Button variant="outline-secondary" className="serverButton" style={{float: "left"}}>GitHub: Server Repository</Button>
+                            {/* <Button variant="outline-secondary" className="serverButton" style={{float: "none", margin: "5%"}}>GitHub: Server Repository</Button> */}
                         </div>
                     </div>
                     </div>

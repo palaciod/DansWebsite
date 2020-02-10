@@ -30,7 +30,7 @@ export class IosProjectNav extends Component {
                             <h2>Technologies:</h2>
                             <h5 className="appTech">MapKit, Firebase Storage, Heroku, Kingfisher, MongoDB, and Node.js/Express for the server.</h5>
                             <br></br>
-                            <div className= "buttons">
+                            <div className= "buttons" >
                                 <Button variant="outline-secondary" className="swiftAppButton">GitHub: iOS App Repository</Button>
                                 <Button variant="outline-secondary" className="serverButton">GitHub: Server Repository</Button>
                             </div>

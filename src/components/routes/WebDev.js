@@ -62,6 +62,8 @@ export class WebDev extends Component{
                 <h1>Web Development</h1>
                 <br></br>
                 <WebProjectView title={"VidJot"}></WebProjectView>
+                <WebProjectView title={"VidJot"}></WebProjectView>
+                <WebProjectView title={"VidJot"}></WebProjectView>
                 </div>
                 
             </div>
