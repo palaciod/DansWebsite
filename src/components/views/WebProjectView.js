@@ -6,10 +6,10 @@ export class WebProjectView extends Component {
     return (
       <div className='webProjectCell'>
         <div className="iosImage" style={{height: "auto", width: "80%"}}>
-            <Image src={projectImage} fluid/>
+            <Image src={this.props.projectImage} fluid/>
         </div>
         <div className="webDesc">
-        <div className="smallAppDesc" style={{margin:"10%"}}>
+        <div className="smallAppDesc" style={{margin:"11%"}}>
                     <div className="appDesc">
                     <h1>{this.props.title}</h1>
                             <br></br>

@@ -18,12 +18,12 @@ h5{
     
 }
 .parallax{
-    background-image: url("../images/black");
+    background-image: url("../images/programer-wallpaper.jpg");
     height: 60%;
     max-width: 100%;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0% 90%;
+    background-position: 0% 180%;
     background-repeat: no-repeat;
     position: relative;
     
@@ -34,7 +34,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
-    color: whitesmoke;
+    color: navajowhite;
     overflow: hidden;
   }
   .projectSection{

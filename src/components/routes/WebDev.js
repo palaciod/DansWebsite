@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import '../styles/style.css';
 import ProjectNav from "../views/ProjectNav";
 import WebProjectView from "../views/WebProjectView";
+import lucyPicture from "../images/luc01.png";
+import vidjotPicture from "../images/vidjot04.png";
 export class WebDev extends Component{
     constructor(){
         super();
@@ -61,9 +63,9 @@ export class WebDev extends Component{
                 <br></br>
                 <h1>Web Development</h1>
                 <br></br>
-                <WebProjectView title={"VidJot"}></WebProjectView>
-                <WebProjectView title={"VidJot"}></WebProjectView>
-                <WebProjectView title={"VidJot"}></WebProjectView>
+                <WebProjectView title={"VidJot"} projectImage={vidjotPicture}></WebProjectView>
+                <WebProjectView title={"Lucy Travels"} projectImage={lucyPicture}></WebProjectView>
+                <WebProjectView title={"GitHub Finder"} projectImage={vidjotPicture}></WebProjectView>
                 </div>
                 
             </div>
