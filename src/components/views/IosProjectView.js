@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Image, Button } from "react-bootstrap";
-import stilistaImage from "../images/stilista.svg";
+import stilistaImage from "../images/stilista3.png";
 export class IosProjectNav extends Component {
 
     componentDidMount(){
@@ -37,7 +37,10 @@ export class IosProjectNav extends Component {
                         </div>
                     </div>
                     <div className="iosRight">
-                    <Image src={stilistaImage} fluid />
+                        <div className="iosImage">
+                        <Image src={stilistaImage} fluid/>
+                        </div>
+                    
                     </div>
                 </div>
             </div>
