@@ -9,14 +9,14 @@ export class WebProjectView extends Component {
             <Image src={this.props.projectImage} fluid/>
         </div>
         <div className="webDesc">
-        <div className="smallAppDesc" style={{margin:"11%"}}>
+        <div className="smallAppDesc" style={{margin:"10%"}}>
                     <div className="appDesc">
                     <h1>{this.props.title}</h1>
                             <br></br>
-                            <h5 style={{textAlign: "center"}}>{this.props.appDesc}</h5>
+                            <h5 style={{textAlign: "center"}}>{this.props.desc}</h5>
                             <br></br>
                             <h2 style={{textAlign: "center"}}>Technologies:</h2>
-                            <h5 className="appTech" style={{textAlign: "center"}}>MapKit, Firebase Storage, Heroku, Kingfisher, MongoDB, and Node.js/Express for the server.</h5>
+    <h5 className="appTech" style={{textAlign: "center"}}>{this.props.tech}</h5>
                             <br></br>
                             <div className= "buttons" >
                                 <Button variant="outline-secondary" className="swiftAppButton" style={{float: "none", margin: "5%"}}>View Project</Button>

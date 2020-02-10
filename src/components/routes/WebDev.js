@@ -4,6 +4,7 @@ import ProjectNav from "../views/ProjectNav";
 import WebProjectView from "../views/WebProjectView";
 import lucyPicture from "../images/luc01.png";
 import vidjotPicture from "../images/vidjot04.png";
+import gitHubFinderPicture from "../images/githubfinder.png";
 export class WebDev extends Component{
     constructor(){
         super();
@@ -63,9 +64,9 @@ export class WebDev extends Component{
                 <br></br>
                 <h1>Web Development</h1>
                 <br></br>
-                <WebProjectView title={"VidJot"} projectImage={vidjotPicture}></WebProjectView>
-                <WebProjectView title={"Lucy Travels"} projectImage={lucyPicture}></WebProjectView>
-                <WebProjectView title={"GitHub Finder"} projectImage={vidjotPicture}></WebProjectView>
+                <WebProjectView title={"VidJot"} projectImage={vidjotPicture} desc={"I am the sole developer for VidJot which is an app to jot down video ideas. There are two versions of the app, one on for iOS and the other for the web. Below you can find the link to the web application. VidJot is still in the process of being uploaded to the app store.  "} tech = {"Handlebars, node.js, express, passport.js, mongoDB, cookie-storage, cookie-parser, body-parser, mongoose, and bcrypt.js."}></WebProjectView>
+                <WebProjectView title={"Lucy Travels"} projectImage={lucyPicture} desc = {"I worked on a website that would demonstrate the adventures of Lucy. The app provides the anecdotal experience Lucy has been through around the world.  "} tech = {"React and Heroku for hosting."}></WebProjectView>
+                <WebProjectView title={"GitHub Finder"} projectImage={gitHubFinderPicture} desc={"A web app to locate and view GitHub users. The app also provides details of the user and their repositories."} tech={"React, heroku, and the GitHub Api."}></WebProjectView>
                 </div>
                 
             </div>
