@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Image, Button } from "react-bootstrap";
-import stilistaImage from "../images/stilista3.png";
+import stilistaImage from "../images/stilista4.png";
 export class IosProjectNav extends Component {
 
     componentDidMount(){
