@@ -1,0 +1,104 @@
+h2,h5{
+  text-align: left;
+}
+h5{
+  text-indent: 5%;
+}
+/* background-color */
+.body{
+    height: 98.5%;
+    width: 100%;
+    position: absolute;
+    background-color: #8B4789;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parallax{
+    background-image: url("../images/black");
+    height: 60%;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0% 90%;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    /* Text ALignment */
+    text-align: center;
+    font-size: 18vh;
+    line-height: 60vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    overflow: hidden;
+  }
+  .projectSection{
+    height: 100%;
+    widows: 100%;
+    background-color: whitesmoke;
+  }
+  .projectView{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  .projectCell{
+    height: 90%;
+    width: 90%;
+    background-color: cornflowerblue;
+    margin: auto;
+  }
+  .iosLeft{
+    height: auto;
+    width: 50%;
+    background-color: darkgreen;
+    float: left;
+  }
+  .iosRight{
+    height: 100%;
+    width: 50%;
+    background-color: darkorange;
+    float: right;
+  }
+  .topLeft{
+    height: auto;
+    width: 100%;
+    background-color: darkslategray;
+  }
+  .appIcon{
+    height: 100%;
+    width: auto;
+    background-color: deeppink;
+    float: left;
+  }
+  .appTitle{
+    float: left;
+    text-indent: 50%;
+  }
+  .appDesc{
+    height: auto;
+    width: 80%;
+    background-color: coral;
+    float: left;
+  }
+  .appTech{
+    text-indent: 0%;
+  }
+  
+  .buttons{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    background-color: blueviolet;
+  }
+
+  .swiftAppButton{
+    float: left;
+  }
+  .serverButton{
+    float: right;
+  }
+

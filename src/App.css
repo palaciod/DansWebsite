@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.parallax{
+  background-image: url("/src/images/programming.JPG");
+  height: 650px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
