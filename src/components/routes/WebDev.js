@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import '../styles/style.css';
 import ProjectNav from "../views/ProjectNav";
+import WebProjectView from "../views/WebProjectView";
 export class WebDev extends Component{
     constructor(){
         super();
@@ -57,7 +58,11 @@ export class WebDev extends Component{
                     Daniel <span style={{color: "#8B4789"}}>Palacio</span>
                 </div>
                 <div className="projectSection"><ProjectNav></ProjectNav>
-                <h1>Web Development</h1></div>
+                <br></br>
+                <h1>Web Development</h1>
+                <br></br>
+                <WebProjectView title={"VidJot"}></WebProjectView>
+                </div>
                 
             </div>
         );
