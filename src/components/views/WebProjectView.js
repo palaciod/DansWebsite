@@ -19,8 +19,8 @@ export class WebProjectView extends Component {
     <h5 className="appTech" style={{textAlign: "center"}}>{this.props.tech}</h5>
                             <br></br>
                             <div className= "buttons" >
-                                <Button variant="outline-secondary" className="swiftAppButton" style={{float: "none", margin: "5%"}}>View Project</Button>
-                                <Button variant="outline-secondary" className="serverButton" style={{float: "none", margin: "1%"}}>View Code</Button>
+                                <Button variant="outline-secondary" className="swiftAppButton" style={{float: "none", margin: "5%"}} href={this.props.link}>View Project</Button>
+                                <Button variant="outline-secondary" className="serverButton" style={{float: "none", margin: "1%"}} href={this.props.sourceCode}>View Code</Button>
                             </div>
                             {/* <Button variant="outline-secondary" className="serverButton" style={{float: "none", margin: "5%"}}>GitHub: Server Repository</Button> */}
                         </div>

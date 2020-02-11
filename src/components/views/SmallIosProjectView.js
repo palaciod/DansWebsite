@@ -26,8 +26,8 @@ export class SmallIosProjectView extends Component {
                             <h5 className="appTech" style={{textAlign: "center"}}>MapKit, Firebase Storage, Heroku, Kingfisher, MongoDB, and Node.js/Express for the server.</h5>
                             <br></br>
                             <div className= "buttons" >
-                                <Button variant="outline-secondary" className="swiftAppButton" style={{float: "none", margin: "5%"}}>GitHub: iOS App Repository</Button>
-                                <Button variant="outline-secondary" className="serverButton" style={{float: "none", margin: "1%"}}>GitHub: Server Repository</Button>
+                                <Button variant="outline-secondary" className="swiftAppButton" style={{float: "none", margin: "5%"}} href={this.props.link}>GitHub: iOS App Repository</Button>
+                                <Button variant="outline-secondary" className="serverButton" style={{float: "none", margin: "1%"}} href={this.props.linkServer}>GitHub: Server Repository</Button>
                             </div>
                             {/* <Button variant="outline-secondary" className="serverButton" style={{float: "none", margin: "5%"}}>GitHub: Server Repository</Button> */}
                         </div>
