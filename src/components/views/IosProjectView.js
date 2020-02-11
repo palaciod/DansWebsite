@@ -38,7 +38,7 @@ export class IosProjectNav extends Component {
                     </div>
                     <div className="iosRight">
                         <div className="iosImage">
-                        <Image src={stilistaImage} fluid/>
+                        <Image src={this.props.iosImage} fluid/>
                         </div>
                     
                     </div>

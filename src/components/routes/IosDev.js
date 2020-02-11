@@ -4,6 +4,8 @@ import ProjectNav from "../views/ProjectNav";
 import IosProjectView from "../views/IosProjectView";
 import SmallIosView from "../views/SmallIosProjectView";
 import StilistaIcon from "../images/stilistaIcon167.png";
+import stilistaImage from "../images/stilista6.png";
+import MyJournalPicture from "../images/myJournal01.png";
 export class IosDev extends Component{
     constructor(){
         super();
@@ -83,11 +85,11 @@ export class IosDev extends Component{
                 <br></br>
                 <h1>iOS Portfolio</h1>
                 
-                <SmallIosView title={"Stilista"} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
+                <SmallIosView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
                 
-                <SmallIosView title={"Stilista"} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
+                <SmallIosView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
                 
-                <SmallIosView title={"Stilista"} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
+                <SmallIosView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
                 </div>
                 
             </div>
@@ -103,9 +105,9 @@ export class IosDev extends Component{
                 <br></br>
                 <h1>iOS Portfolio</h1>
                 <br></br>
-                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></IosProjectView>
-                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon}></IosProjectView>
-                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></IosProjectView>
+                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></IosProjectView>
+                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage}></IosProjectView>
+                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} iosImage={MyJournalPicture} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></IosProjectView>
                 </div>
                 
             </div>

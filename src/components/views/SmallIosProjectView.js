@@ -14,7 +14,7 @@ export class SmallIosProjectView extends Component {
                 <div className="iosRight" style={{float: "none", margin:"auto", width: "80%"}}>
                     
                     <div className="iosImage" >
-                        <Image src={stilistaImage} fluid/>
+                        <Image src={this.props.iosImage} fluid/>
                     </div>
                     <div className="smallAppDesc" style={{margin:"10%"}}>
                     <div className="appDesc">
