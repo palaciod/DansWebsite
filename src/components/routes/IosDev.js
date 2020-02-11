@@ -6,6 +6,7 @@ import SmallIosView from "../views/SmallIosProjectView";
 import StilistaIcon from "../images/stilistaIcon167.png";
 import stilistaImage from "../images/stilista6.png";
 import MyJournalPicture from "../images/myJournal01.png";
+import VidjotPicture from "../images/vidjot01.png";
 export class IosDev extends Component{
     constructor(){
         super();
@@ -85,11 +86,11 @@ export class IosDev extends Component{
                 <br></br>
                 <h1>iOS Portfolio</h1>
                 
-                <SmallIosView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
+                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Stilista compares your location with nearby users to create a list of hair stylists that are filtered by the distance you choose. Stilista also shows the exact location of the stylist that you wish to meet and allows you request an appointment . A user can sign up as a client or a hair stylist. After an appointment clients can also leave reviews on hair stylists. *Note Map-Kit does not work at all in the iPhone simulator. "}></IosProjectView>
                 
-                <SmallIosView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
+                <SmallIosView title={"VidJot"} appIcon ={StilistaIcon} iosImage={VidjotPicture} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
                 
-                <SmallIosView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></SmallIosView>
+                <SmallIosView title={"My Journal"} appIcon ={StilistaIcon} iosImage={MyJournalPicture} appDesc={"I created MyJournal to solidify my understanding of full stack development when it came to iOS applications. As fun as Firebase is Firebase comes nowhere near a custom built back-end. Firebase comes with it’s own limitations that messes up the architecture of the app by clogging the client side of the application with code that’s suppose to be on the server-side. "}></SmallIosView>
                 </div>
                 
             </div>
@@ -105,9 +106,9 @@ export class IosDev extends Component{
                 <br></br>
                 <h1>iOS Portfolio</h1>
                 <br></br>
-                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></IosProjectView>
-                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage}></IosProjectView>
-                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} iosImage={MyJournalPicture} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Aluna helps children manage their asthma by gamifying their daily spirometry tests. Aluna connects via bluetooth to an in-home spirometry device."}></IosProjectView>
+                <IosProjectView title={"Stilista"} appIcon ={StilistaIcon} iosImage={stilistaImage} appDesc={"I am the sole iOS developer for Stilista which is still is the process of being approved by the app store. Stilista compares your location with nearby users to create a list of hair stylists that are filtered by the distance you choose. Stilista also shows the exact location of the stylist that you wish to meet and allows you request an appointment . A user can sign up as a client or a hair stylist. After an appointment clients can also leave reviews on hair stylists. *Note Map-Kit does not work at all in the iPhone simulator. "}></IosProjectView>
+                <IosProjectView title={"VidJot"} appIcon ={StilistaIcon} iosImage={VidjotPicture} appDesc={"I am the sole developer for VidJot which also has a web counterpart located below in GitHub or in the next tab. VidJot helps you jot down video ideas when there are no writing utensils in sight. "}></IosProjectView>
+                <IosProjectView title={"MyJournal"} appIcon ={StilistaIcon} iosImage={MyJournalPicture} appDesc={"I created MyJournal to solidify my understanding of full stack development when it came to iOS applications. As fun as Firebase is Firebase comes nowhere near a custom built back-end. Firebase comes with it’s own limitations that messes up the architecture of the app by clogging the client side of the application with code that’s suppose to be on the server-side. "}></IosProjectView>
                 </div>
                 
             </div>
