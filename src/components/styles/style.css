@@ -1,3 +1,6 @@
+p{
+  text-align: center;
+}
 h1{
   text-align: center;
 }
@@ -16,6 +19,17 @@ h5{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     
+}
+.wallpaper{
+  position: relative;
+  text-align: center;
+    font-size: 18vh;
+    line-height: 60vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: navajowhite;
+    overflow: hidden;
 }
 .parallax{
     background-image: url("../images/programer-wallpaper.jpg");
@@ -134,4 +148,20 @@ h5{
     width: 90%;
     background-color: white;
     margin: auto;
+  }
+
+
+
+  .aboutPage{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+  }
+
+  .profilePicture{
+    margin: auto;
+    text-align: center;
+  }
+  .profileImage{
+    width: 20%;
   }

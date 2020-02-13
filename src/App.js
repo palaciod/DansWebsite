@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Main from "./components/routes/Main"
+import About from "./components/routes/About";
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +23,7 @@ class App extends React.Component {
             <Route exact path="/" component={Main}></Route>
             <Route exact path="/main/iosdev" component={IosDev}></Route>
             <Route exact path="/main/webdev" component={WebDev}></Route>
+            <Route exact path="/about" component={About}></Route>
           </Switch>
         </Router>
       </div>

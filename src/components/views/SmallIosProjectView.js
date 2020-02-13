@@ -23,7 +23,7 @@ export class SmallIosProjectView extends Component {
                             <h5 style={{textAlign: "center"}}>{this.props.appDesc}</h5>
                             <br></br>
                             <h2 style={{textAlign: "center"}}>Technologies:</h2>
-                            <h5 className="appTech" style={{textAlign: "center"}}>MapKit, Firebase Storage, Heroku, Kingfisher, MongoDB, and Node.js/Express for the server.</h5>
+                            <h5 className="appTech" style={{textAlign: "center"}}>{this.props.tech}</h5>
                             <br></br>
                             <div className= "buttons" >
                                 <Button variant="outline-secondary" className="swiftAppButton" style={{float: "none", margin: "5%"}} href={this.props.link}>GitHub: iOS App Repository</Button>

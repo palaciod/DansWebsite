@@ -28,7 +28,7 @@ export class IosProjectNav extends Component {
                             <h5>{this.props.appDesc}</h5>
                             <br></br>
                             <h2>Technologies:</h2>
-                            <h5 className="appTech">MapKit, Firebase Storage, Heroku, Kingfisher, MongoDB, and Node.js/Express for the server.</h5>
+                            <h5 className="appTech">{this.props.tech}</h5>
                             <br></br>
                             <div className= "buttons" >
                                 <Button variant="outline-secondary" className="swiftAppButton" href={this.props.link}>GitHub: iOS App Repository</Button>
